@@ -2,6 +2,10 @@
 
 Important decisions, newest first. This is not a changelog: small fixes and implementation details belong in the pull request. Add an entry only when a choice would otherwise be questioned or reversed later. Requirements are in [PROJECT-BRIEF.md](PROJECT-BRIEF.md).
 
+## 31 October 2026: En-dashes for prose punctuation
+
+At Nick's direction, website prose (and his communications generally) uses en-dashes for parenthetical dashes and number ranges; ordinary hyphens stay in compound words, code and URLs. Applied across all pages' visible prose and meta descriptions.
+
 ## 31 October 2026: Pricing copy strengthened after competitor research
 
 At Nick's request after reviewing the preview, the Starter inclusions are worded more confidently, with search engine optimisation named as SEO rather than "basics", and Content & growth now lists ongoing support with security updates and vulnerability fixes. The changes follow a scan of UK website packages and care plans. Support scope and price stay part of each project's individual written quote, so the page makes no fixed maintenance commitment, and the guide prices themselves are unchanged. Nick also confirmed stated turnarounds of one week (Starter) and three weeks (Content & growth), each starting once scope is agreed and the client's content is ready; no turnaround is stated for bespoke work.
