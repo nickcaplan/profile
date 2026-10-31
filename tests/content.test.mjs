@@ -267,6 +267,10 @@ test('pricing page: three tiers with guide prices, inclusions and a route to the
   // Prices stay honest guide prices: framed as starting points with an
   // individually written quote before any commitment, and the free
   // 20-minute consultation from the business plan is the first step.
+  assert.match(tiers[0], /Search engine optimisation \(SEO\)/, 'the starter tier names SEO rather than underselling it');
+  assert.doesNotMatch(tiers[0], /search engine basics/i, 'starter SEO is not described as basics');
+  assert.match(tiers[1], /Ongoing support/, 'the content & growth tier includes ongoing support');
+  assert.match(tiers[1], /vulnerability fixes/, 'the content & growth tier includes vulnerability fixes');
   assert.match(html, />from</, 'prices are framed as starting points');
   assert.match(html, /quoted individually/, 'every project is quoted individually');
   assert.match(html, /free 20-minute chat/, 'the free consultation is the first step');

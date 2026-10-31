@@ -2,6 +2,10 @@
 
 Important decisions, newest first. This is not a changelog: small fixes and implementation details belong in the pull request. Add an entry only when a choice would otherwise be questioned or reversed later. Requirements are in [PROJECT-BRIEF.md](PROJECT-BRIEF.md).
 
+## 31 October 2026: Pricing copy strengthened after competitor research
+
+At Nick's request after reviewing the preview, the Starter inclusions are worded more confidently, with search engine optimisation named as SEO rather than "basics", and Content & growth now lists ongoing support with security updates and vulnerability fixes. The changes follow a scan of UK website packages and care plans. Support scope and price stay part of each project's individual written quote, so the page makes no fixed maintenance commitment, and the guide prices themselves are unchanged.
+
 ## 31 October 2026: Pricing page with proposed guide prices
 
 At Nick's request, a Pricing page presents the three-tier structure from his feedback document (starter, content & growth, bespoke engineering) with what each tier includes and the free 20-minute consultation as the first step. The starting price of £500 is Nick's own suggestion; the tier prices are proposals awaiting his decision, framed on the page as "from" guide prices with every project quoted individually in writing. The page ships only if Nick approves the pull request.
