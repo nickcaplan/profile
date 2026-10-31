@@ -4,7 +4,7 @@ Important decisions, newest first. This is not a changelog: small fixes and impl
 
 ## 31 October 2026: Pricing copy strengthened after competitor research
 
-At Nick's request after reviewing the preview, the Starter inclusions are worded more confidently, with search engine optimisation named as SEO rather than "basics", and Content & growth now lists ongoing support with security updates and vulnerability fixes. The changes follow a scan of UK website packages and care plans. Support scope and price stay part of each project's individual written quote, so the page makes no fixed maintenance commitment, and the guide prices themselves are unchanged.
+At Nick's request after reviewing the preview, the Starter inclusions are worded more confidently, with search engine optimisation named as SEO rather than "basics", and Content & growth now lists ongoing support with security updates and vulnerability fixes. The changes follow a scan of UK website packages and care plans. Support scope and price stay part of each project's individual written quote, so the page makes no fixed maintenance commitment, and the guide prices themselves are unchanged. Nick also confirmed stated turnarounds of one week (Starter) and three weeks (Content & growth), each starting once scope is agreed and the client's content is ready; no turnaround is stated for bespoke work.
 
 ## 31 October 2026: Pricing page with proposed guide prices
 

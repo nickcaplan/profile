@@ -271,6 +271,9 @@ test('pricing page: three tiers with guide prices, inclusions and a route to the
   assert.doesNotMatch(tiers[0], /search engine basics/i, 'starter SEO is not described as basics');
   assert.match(tiers[1], /Ongoing support/, 'the content & growth tier includes ongoing support');
   assert.match(tiers[1], /vulnerability fixes/, 'the content & growth tier includes vulnerability fixes');
+  assert.match(tiers[0], /Built within one week/, 'the starter tier states its one-week turnaround');
+  assert.match(tiers[1], /Built within three weeks/, 'the content & growth tier states its three-week turnaround');
+  assert.match(html, /once we&rsquo;ve agreed the scope and your content is ready/, 'turnarounds start from agreed scope and ready content');
   assert.match(html, />from</, 'prices are framed as starting points');
   assert.match(html, /quoted individually/, 'every project is quoted individually');
   assert.match(html, /free 20-minute chat/, 'the free consultation is the first step');
