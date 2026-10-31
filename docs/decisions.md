@@ -2,9 +2,9 @@
 
 Important decisions, newest first. This is not a changelog: small fixes and implementation details belong in the pull request. Add an entry only when a choice would otherwise be questioned or reversed later. Requirements are in [PROJECT-BRIEF.md](PROJECT-BRIEF.md).
 
-## 31 October 2026: En-dashes for prose punctuation
+## 31 October 2026: Hyphens for prose punctuation
 
-At Nick's direction, website prose (and his communications generally) uses en-dashes for parenthetical dashes and number ranges; ordinary hyphens stay in compound words, code and URLs. Applied across all pages' visible prose and meta descriptions.
+Nick briefly tried en-dashes for prose punctuation, then settled on ordinary hyphens for dashes in website prose and his communications generally. Hyphens everywhere: punctuation, ranges and compounds.
 
 ## 31 October 2026: Pricing copy strengthened after competitor research
 

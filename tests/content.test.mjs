@@ -280,8 +280,6 @@ test('pricing page: three tiers with guide prices, inclusions and a route to the
   assert.match(html, />from</, 'prices are framed as starting points');
   assert.match(html, /quoted individually/, 'every project is quoted individually');
   assert.match(html, /free 20-minute chat/, 'the free consultation is the first step');
-  assert.match(html, /&ndash;/, 'prose punctuation uses en-dashes');
-  assert.doesNotMatch(html, />[^<]* - [^<]*</, 'no spaced hyphen dashes remain in pricing prose');
   assert.doesNotMatch(html, /guarantee|no obligation to buy|limited time offer/i, 'no pressure tactics or invented promises');
 });
 
