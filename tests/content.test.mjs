@@ -255,11 +255,13 @@ test('pricing page: three tiers with guide prices, inclusions and a route to the
   const html = read('pricing/index.html');
   const tiers = [...html.matchAll(/<article class="tier">[\s\S]*?<\/article>/g)].map((m) => m[0]);
   assert.equal(tiers.length, 3, 'Starter, Content & growth and Bespoke engineering tiers');
-  const names = tiers.map((t) => (t.match(/<div class="tier-kicker">([^<]+)<\/div>/) || [])[1]);
+  const names = tiers.map((t) => (t.match(/<h2 class="tier-kicker">([^<]+)<\/h2>/) || [])[1]);
   assert.deepEqual(names, ['Starter', 'Content &amp; growth', 'Bespoke engineering']);
   for (const tier of tiers) {
     assert.match(tier, /<p class="tier-price">/, 'every tier shows its guide price');
     assert.match(tier, /<ul class="tier-list">/, 'every tier lists what is included');
+    assert.match(tier, /<h2 class="tier-kicker">/, 'every tier name is a heading for screen-reader navigation');
+    assert.match(tier, /<h3 class="tier-heading">/, 'inclusions sit under the tier heading');
     assert.match(tier, /<a class="button tier-cta" href="\.\.\/contact\/">/, 'every tier leads to the contact page');
   }
   // Prices stay honest guide prices: framed as starting points with an

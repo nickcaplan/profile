@@ -12,6 +12,7 @@
   flex-direction: column;
   padding: 30px 28px 28px;
 }
+h2.tier-kicker { margin: 0; }
 .tier-kicker { color: var(--accent-ink); font-family: var(--mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; }
 .tier-price { font-family: var(--display); font-size: 40px; font-weight: 600; letter-spacing: -.045em; line-height: 1.05; margin: 14px 0 10px; }
 .tier-from { color: var(--muted); font-family: var(--body); font-size: 15px; font-weight: 400; letter-spacing: -.01em; white-space: nowrap; }
@@ -45,6 +46,12 @@
 
 body[data-mobile="true"] .included,
 body[data-mobile="true"] .steps { margin-top: 36px; }
+/* Project brief: body text is at least 16px on phones. */
+body[data-mobile="true"] .tier-audience,
+body[data-mobile="true"] .tier-list li,
+body[data-mobile="true"] .pricing-note,
+body[data-mobile="true"] .included-list li,
+body[data-mobile="true"] .steps-list li { font-size: 16px; }
 body[data-mobile="true"] .tier-price { font-size: 34px; }
 body[data-mobile="true"] .tier-cta { align-self: stretch; justify-content: center; }
 body[data-mobile="true"] .steps-list li { grid-template-columns: 44px 1fr; }
